@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'MegaLivelyShoe' do
+    pod 'Alamofire', '~> 4.5'
+    pod 'IQKeyboardManagerSwift'
+    pod 'SQLite.swift', '~> 0.11.4'
+end

@@ -1,0 +1,6 @@
+framework module Pods_MegaLivelyShoe {
+  umbrella header "Pods-MegaLivelyShoe-umbrella.h"
+
+  export *
+  module * { export * }
+}
