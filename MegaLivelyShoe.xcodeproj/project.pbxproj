@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		635506AC1FE86F06009CAE17 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635506AD1FE86F06009CAE17 /* SQLite.framework */; };
 		635506AF1FE86F3F009CAE17 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 635506AD1FE86F06009CAE17 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		635506B31FE88270009CAE17 /* ProductsViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */; };
 		63AB4C8D1FE3F14A002D7DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */; };
@@ -17,6 +16,8 @@
 		63AB4C971FE3F14A002D7DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AB4C951FE3F14A002D7DB4 /* LaunchScreen.storyboard */; };
 		63AB4CA21FE3F14A002D7DB4 /* MegaLivelyShoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB4CA11FE3F14A002D7DB4 /* MegaLivelyShoeTests.swift */; };
 		63AB4CAD1FE3F14A002D7DB4 /* MegaLivelyShoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB4CAC1FE3F14A002D7DB4 /* MegaLivelyShoeUITests.swift */; };
+		63F5D21F1FE9D995005AF097 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F5D2201FE9D995005AF097 /* IQKeyboardManagerSwift.framework */; };
+		63F5D2211FE9DA1C005AF097 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F5D2221FE9DA1C005AF097 /* Alamofire.framework */; };
 		812A9BDC2D9D65BB07A0038B /* Pods_MegaLivelyShoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1158D498EB3998BB4055A443 /* Pods_MegaLivelyShoe.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +56,6 @@
 		1158D498EB3998BB4055A443 /* Pods_MegaLivelyShoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLivelyShoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635506AD1FE86F06009CAE17 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewTableViewController.swift; sourceTree = "<group>"; };
-		639914531FE95D42003774BC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AB4C891FE3F149002D7DB4 /* MegaLivelyShoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLivelyShoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63AB4C8E1FE3F14A002D7DB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +69,9 @@
 		63AB4CA81FE3F14A002D7DB4 /* MegaLivelyShoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegaLivelyShoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AB4CAC1FE3F14A002D7DB4 /* MegaLivelyShoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLivelyShoeUITests.swift; sourceTree = "<group>"; };
 		63AB4CAE1FE3F14A002D7DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F5D2141FE9D764005AF097 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F5D2201FE9D995005AF097 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F5D2221FE9DA1C005AF097 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4507D5BD06C493D925BC7DC /* Pods-MegaLivelyShoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLivelyShoe.release.xcconfig"; path = "Pods/Target Support Files/Pods-MegaLivelyShoe/Pods-MegaLivelyShoe.release.xcconfig"; sourceTree = "<group>"; };
 		E54508579AC09D89A254FDDB /* Pods-MegaLivelyShoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLivelyShoe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MegaLivelyShoe/Pods-MegaLivelyShoe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				635506AC1FE86F06009CAE17 /* SQLite.framework in Frameworks */,
+				63F5D2211FE9DA1C005AF097 /* Alamofire.framework in Frameworks */,
+				63F5D21F1FE9D995005AF097 /* IQKeyboardManagerSwift.framework in Frameworks */,
 				812A9BDC2D9D65BB07A0038B /* Pods_MegaLivelyShoe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +107,9 @@
 		37B4337C5F78BCF4D8BFAC59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63F5D2221FE9DA1C005AF097 /* Alamofire.framework */,
+				63F5D2201FE9D995005AF097 /* IQKeyboardManagerSwift.framework */,
+				63F5D2141FE9D764005AF097 /* Alamofire.framework */,
 				635506AD1FE86F06009CAE17 /* SQLite.framework */,
 				1158D498EB3998BB4055A443 /* Pods_MegaLivelyShoe.framework */,
 			);
@@ -135,7 +142,6 @@
 		63AB4C801FE3F149002D7DB4 = {
 			isa = PBXGroup;
 			children = (
-				639914531FE95D42003774BC /* Alamofire.framework */,
 				63AB4C8B1FE3F149002D7DB4 /* MegaLivelyShoe */,
 				63AB4CA01FE3F14A002D7DB4 /* MegaLivelyShoeTests */,
 				63AB4CAB1FE3F14A002D7DB4 /* MegaLivelyShoeUITests */,
