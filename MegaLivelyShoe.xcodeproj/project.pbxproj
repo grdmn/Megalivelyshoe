@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		635506AC1FE86F06009CAE17 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635506AD1FE86F06009CAE17 /* SQLite.framework */; };
-		635506AE1FE86F3F009CAE17 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635506AD1FE86F06009CAE17 /* SQLite.framework */; };
 		635506AF1FE86F3F009CAE17 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 635506AD1FE86F06009CAE17 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		635506B31FE88270009CAE17 /* ProductsViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */; };
 		63AB4C8D1FE3F14A002D7DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */; };
@@ -56,6 +55,7 @@
 		1158D498EB3998BB4055A443 /* Pods_MegaLivelyShoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLivelyShoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635506AD1FE86F06009CAE17 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewTableViewController.swift; sourceTree = "<group>"; };
+		639914531FE95D42003774BC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AB4C891FE3F149002D7DB4 /* MegaLivelyShoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLivelyShoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63AB4C8E1FE3F14A002D7DB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +80,6 @@
 			files = (
 				635506AC1FE86F06009CAE17 /* SQLite.framework in Frameworks */,
 				812A9BDC2D9D65BB07A0038B /* Pods_MegaLivelyShoe.framework in Frameworks */,
-				635506AE1FE86F3F009CAE17 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +135,7 @@
 		63AB4C801FE3F149002D7DB4 = {
 			isa = PBXGroup;
 			children = (
+				639914531FE95D42003774BC /* Alamofire.framework */,
 				63AB4C8B1FE3F149002D7DB4 /* MegaLivelyShoe */,
 				63AB4CA01FE3F14A002D7DB4 /* MegaLivelyShoeTests */,
 				63AB4CAB1FE3F14A002D7DB4 /* MegaLivelyShoeUITests */,
