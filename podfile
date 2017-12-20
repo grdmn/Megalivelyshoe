@@ -6,4 +6,5 @@ target 'MegaLivelyShoe' do
     pod 'Alamofire', '~> 4.5'
     pod 'IQKeyboardManagerSwift'
     pod 'SQLite.swift', '~> 0.11.4'
+    pod 'SwiftyJSON'
 end

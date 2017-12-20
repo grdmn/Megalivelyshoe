@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632B61251FE9EDDE00E74846 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632B61241FE9EDDE00E74846 /* MapViewController.swift */; };
 		635506AF1FE86F3F009CAE17 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 635506AD1FE86F06009CAE17 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		635506B31FE88270009CAE17 /* ProductsViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */; };
 		63AB4C8D1FE3F14A002D7DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		1158D498EB3998BB4055A443 /* Pods_MegaLivelyShoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLivelyShoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		632B61241FE9EDDE00E74846 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		635506AD1FE86F06009CAE17 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewTableViewController.swift; sourceTree = "<group>"; };
 		63AB4C891FE3F149002D7DB4 /* MegaLivelyShoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLivelyShoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */,
+				632B61241FE9EDDE00E74846 /* MapViewController.swift */,
 			);
 			path = Contoller;
 			sourceTree = "<group>";
@@ -380,12 +383,14 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -402,6 +407,7 @@
 				635506B31FE88270009CAE17 /* ProductsViewTableViewController.swift in Sources */,
 				63AB4C8F1FE3F14A002D7DB4 /* ViewController.swift in Sources */,
 				63AB4C8D1FE3F14A002D7DB4 /* AppDelegate.swift in Sources */,
+				632B61251FE9EDDE00E74846 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH9B7ZJ7EE;
 				INFOPLIST_FILE = MegaLivelyShoe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ict.su.MegaLivelyShoe;
@@ -584,6 +591,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH9B7ZJ7EE;
 				INFOPLIST_FILE = MegaLivelyShoe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ict.su.MegaLivelyShoe;
