@@ -10,51 +10,24 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class MapViewController: UIViewController, CLLocationManagerDelegate {
+class MapViewController: UIViewController {
     
     @IBOutlet weak var mapView: MKMapView!
-   
-    let locationmanager = CLLocationManager()
+    
+    var pin:AnnotationStorePin!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        let coordinate = CLLocationCoordinate2DMake(13.794811, 100.595711)
+        let region = MKCoordinateRegionMakeWithDistance(coordinate, 1000, 1000)
         
-        locationmanager.delegate = self
-        locationmanager.requestWhenInUseAuthorization()
-        locationmanager.startUpdatingLocation()
+        mapView.setRegion(region, animated: true)
         
-        // Do any additional setup after loading the view.
-    }
-
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        
-        let location = locations[0]
-        
-        let center = location.coordinate
-        let span = MKCoordinateSpanMake(0.05, 0.05)
-        let region = MKCoordinateRegionMake(center, span)
-        
-        mapView.setRegion(region,animated: true)
-        mapView.showsUserLocation = true
-        
-        
+        pin = AnnotationStorePin(title: "Market", Subtitle: "Best Shoe Market", coordinate: coordinate)
+        mapView.addAnnotation(pin)
         
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
