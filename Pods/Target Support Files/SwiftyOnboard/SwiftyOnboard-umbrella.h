@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "SwiftyOnboard.h"
 
-FOUNDATION_EXPORT double RealmSwiftVersionNumber;
-FOUNDATION_EXPORT const unsigned char RealmSwiftVersionString[];
+FOUNDATION_EXPORT double SwiftyOnboardVersionNumber;
+FOUNDATION_EXPORT const unsigned char SwiftyOnboardVersionString[];
 

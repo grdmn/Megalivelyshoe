@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		635506AF1FE86F3F009CAE17 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 635506AD1FE86F06009CAE17 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		635506B31FE88270009CAE17 /* ProductsViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */; };
+		6396FED71FED31B700ACDAC8 /* SwiftyOnboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6396FED81FED31B700ACDAC8 /* SwiftyOnboard.framework */; };
+		6396FEDD1FED31D600ACDAC8 /* CustomPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6396FED91FED31D500ACDAC8 /* CustomPage.xib */; };
+		6396FEDE1FED31D600ACDAC8 /* CustomOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396FEDA1FED31D600ACDAC8 /* CustomOverlay.swift */; };
+		6396FEDF1FED31D600ACDAC8 /* CustomOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6396FEDB1FED31D600ACDAC8 /* CustomOverlay.xib */; };
+		6396FEE01FED31D600ACDAC8 /* CustomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396FEDC1FED31D600ACDAC8 /* CustomPage.swift */; };
 		63AB4C8D1FE3F14A002D7DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */; };
 		63AB4C8F1FE3F14A002D7DB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB4C8E1FE3F14A002D7DB4 /* ViewController.swift */; };
 		63AB4C921FE3F14A002D7DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AB4C901FE3F14A002D7DB4 /* Main.storyboard */; };
@@ -38,24 +42,15 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		635506B01FE86F3F009CAE17 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				635506AF1FE86F3F009CAE17 /* SQLite.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		1158D498EB3998BB4055A443 /* Pods_MegaLivelyShoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLivelyShoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635506AD1FE86F06009CAE17 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewTableViewController.swift; sourceTree = "<group>"; };
+		6396FED81FED31B700ACDAC8 /* SwiftyOnboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyOnboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6396FED91FED31D500ACDAC8 /* CustomPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomPage.xib; path = ../../../../../Desktop/CustomPage.xib; sourceTree = "<group>"; };
+		6396FEDA1FED31D600ACDAC8 /* CustomOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomOverlay.swift; path = ../../../../../Desktop/CustomOverlay.swift; sourceTree = "<group>"; };
+		6396FEDB1FED31D600ACDAC8 /* CustomOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomOverlay.xib; path = ../../../../../Desktop/CustomOverlay.xib; sourceTree = "<group>"; };
+		6396FEDC1FED31D600ACDAC8 /* CustomPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomPage.swift; path = ../../../../../Desktop/CustomPage.swift; sourceTree = "<group>"; };
 		63AB4C891FE3F149002D7DB4 /* MegaLivelyShoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLivelyShoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63AB4C8E1FE3F14A002D7DB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6396FED71FED31B700ACDAC8 /* SwiftyOnboard.framework in Frameworks */,
 				63F5D2211FE9DA1C005AF097 /* Alamofire.framework in Frameworks */,
 				63F5D21F1FE9D995005AF097 /* IQKeyboardManagerSwift.framework in Frameworks */,
 				812A9BDC2D9D65BB07A0038B /* Pods_MegaLivelyShoe.framework in Frameworks */,
@@ -107,6 +103,7 @@
 		37B4337C5F78BCF4D8BFAC59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6396FED81FED31B700ACDAC8 /* SwiftyOnboard.framework */,
 				63F5D2221FE9DA1C005AF097 /* Alamofire.framework */,
 				63F5D2201FE9D995005AF097 /* IQKeyboardManagerSwift.framework */,
 				63F5D2141FE9D764005AF097 /* Alamofire.framework */,
@@ -169,6 +166,10 @@
 				635506B51FE8833A009CAE17 /* Views */,
 				63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */,
 				63AB4C8E1FE3F14A002D7DB4 /* ViewController.swift */,
+				6396FEDA1FED31D600ACDAC8 /* CustomOverlay.swift */,
+				6396FEDB1FED31D600ACDAC8 /* CustomOverlay.xib */,
+				6396FEDC1FED31D600ACDAC8 /* CustomPage.swift */,
+				6396FED91FED31D500ACDAC8 /* CustomPage.xib */,
 				63AB4C931FE3F14A002D7DB4 /* Assets.xcassets */,
 				63AB4C951FE3F14A002D7DB4 /* LaunchScreen.storyboard */,
 				63AB4C981FE3F14A002D7DB4 /* Info.plist */,
@@ -216,7 +217,6 @@
 				63AB4C871FE3F149002D7DB4 /* Resources */,
 				FED548B7D2868C7C861B267B /* [CP] Embed Pods Frameworks */,
 				24AAFD57EEB966D798FA6CD1 /* [CP] Copy Pods Resources */,
-				635506B01FE86F3F009CAE17 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,8 +315,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				63AB4C971FE3F14A002D7DB4 /* LaunchScreen.storyboard in Resources */,
+				6396FEDF1FED31D600ACDAC8 /* CustomOverlay.xib in Resources */,
 				63AB4C941FE3F14A002D7DB4 /* Assets.xcassets in Resources */,
 				63AB4C921FE3F14A002D7DB4 /* Main.storyboard in Resources */,
+				6396FEDD1FED31D600ACDAC8 /* CustomPage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,12 +382,14 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyOnboard/SwiftyOnboard.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyOnboard.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -399,9 +403,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6396FEE01FED31D600ACDAC8 /* CustomPage.swift in Sources */,
 				635506B31FE88270009CAE17 /* ProductsViewTableViewController.swift in Sources */,
 				63AB4C8F1FE3F14A002D7DB4 /* ViewController.swift in Sources */,
 				63AB4C8D1FE3F14A002D7DB4 /* AppDelegate.swift in Sources */,
+				6396FEDE1FED31D600ACDAC8 /* CustomOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
