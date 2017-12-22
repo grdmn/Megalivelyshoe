@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		635506AF1FE86F3F009CAE17 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 635506AD1FE86F06009CAE17 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		635506B31FE88270009CAE17 /* ProductsViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */; };
 		638007451FED354D00BFA6C8 /* CustomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638007411FED354C00BFA6C8 /* CustomPage.swift */; };
 		638007461FED354D00BFA6C8 /* CustomOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638007421FED354C00BFA6C8 /* CustomOverlay.swift */; };
 		638007471FED354D00BFA6C8 /* CustomOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 638007431FED354D00BFA6C8 /* CustomOverlay.xib */; };
 		638007481FED354D00BFA6C8 /* CustomPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 638007441FED354D00BFA6C8 /* CustomPage.xib */; };
+		6380074A1FED5BBF00BFA6C8 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 638007491FED5BBF00BFA6C8 /* Fonts */; };
+		638007571FED5C6400BFA6C8 /* effra_bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6380074B1FED5C6200BFA6C8 /* effra_bold-webfont.ttf */; };
+		638007581FED5C6400BFA6C8 /* effra_regular-webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6380074C1FED5C6300BFA6C8 /* effra_regular-webfont.svg */; };
+		638007591FED5C6400BFA6C8 /* effra_regular-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6380074D1FED5C6300BFA6C8 /* effra_regular-webfont.eot */; };
+		6380075A1FED5C6400BFA6C8 /* effra_medium-webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 6380074E1FED5C6300BFA6C8 /* effra_medium-webfont.svg */; };
+		6380075B1FED5C6400BFA6C8 /* effra_regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6380074F1FED5C6300BFA6C8 /* effra_regular-webfont.ttf */; };
+		6380075C1FED5C6400BFA6C8 /* effra_bold-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 638007501FED5C6300BFA6C8 /* effra_bold-webfont.woff */; };
+		6380075D1FED5C6400BFA6C8 /* effra_regular-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 638007511FED5C6300BFA6C8 /* effra_regular-webfont.woff */; };
+		6380075E1FED5C6400BFA6C8 /* effra_medium-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 638007521FED5C6400BFA6C8 /* effra_medium-webfont.eot */; };
+		6380075F1FED5C6400BFA6C8 /* effra_bold-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 638007531FED5C6400BFA6C8 /* effra_bold-webfont.eot */; };
+		638007601FED5C6400BFA6C8 /* effra_bold-webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 638007541FED5C6400BFA6C8 /* effra_bold-webfont.svg */; };
+		638007611FED5C6400BFA6C8 /* effra_medium-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 638007551FED5C6400BFA6C8 /* effra_medium-webfont.ttf */; };
+		638007621FED5C6400BFA6C8 /* effra_medium-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 638007561FED5C6400BFA6C8 /* effra_medium-webfont.woff */; };
 		63AB4C8D1FE3F14A002D7DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */; };
 		63AB4C8F1FE3F14A002D7DB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB4C8E1FE3F14A002D7DB4 /* ViewController.swift */; };
 		63AB4C921FE3F14A002D7DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AB4C901FE3F14A002D7DB4 /* Main.storyboard */; };
@@ -42,20 +54,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		635506B01FE86F3F009CAE17 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				635506AF1FE86F3F009CAE17 /* SQLite.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		1158D498EB3998BB4055A443 /* Pods_MegaLivelyShoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLivelyShoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635506AD1FE86F06009CAE17 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +62,19 @@
 		638007421FED354C00BFA6C8 /* CustomOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlay.swift; sourceTree = "<group>"; };
 		638007431FED354D00BFA6C8 /* CustomOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlay.xib; sourceTree = "<group>"; };
 		638007441FED354D00BFA6C8 /* CustomPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPage.xib; sourceTree = "<group>"; };
+		638007491FED5BBF00BFA6C8 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = SOURCE_ROOT; };
+		6380074B1FED5C6200BFA6C8 /* effra_bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "effra_bold-webfont.ttf"; path = "Fonts/effra_bold-webfont.ttf"; sourceTree = "<group>"; };
+		6380074C1FED5C6300BFA6C8 /* effra_regular-webfont.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "effra_regular-webfont.svg"; path = "Fonts/effra_regular-webfont.svg"; sourceTree = "<group>"; };
+		6380074D1FED5C6300BFA6C8 /* effra_regular-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "effra_regular-webfont.eot"; path = "Fonts/effra_regular-webfont.eot"; sourceTree = "<group>"; };
+		6380074E1FED5C6300BFA6C8 /* effra_medium-webfont.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "effra_medium-webfont.svg"; path = "Fonts/effra_medium-webfont.svg"; sourceTree = "<group>"; };
+		6380074F1FED5C6300BFA6C8 /* effra_regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "effra_regular-webfont.ttf"; path = "Fonts/effra_regular-webfont.ttf"; sourceTree = "<group>"; };
+		638007501FED5C6300BFA6C8 /* effra_bold-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "effra_bold-webfont.woff"; path = "Fonts/effra_bold-webfont.woff"; sourceTree = "<group>"; };
+		638007511FED5C6300BFA6C8 /* effra_regular-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "effra_regular-webfont.woff"; path = "Fonts/effra_regular-webfont.woff"; sourceTree = "<group>"; };
+		638007521FED5C6400BFA6C8 /* effra_medium-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "effra_medium-webfont.eot"; path = "Fonts/effra_medium-webfont.eot"; sourceTree = "<group>"; };
+		638007531FED5C6400BFA6C8 /* effra_bold-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "effra_bold-webfont.eot"; path = "Fonts/effra_bold-webfont.eot"; sourceTree = "<group>"; };
+		638007541FED5C6400BFA6C8 /* effra_bold-webfont.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "effra_bold-webfont.svg"; path = "Fonts/effra_bold-webfont.svg"; sourceTree = "<group>"; };
+		638007551FED5C6400BFA6C8 /* effra_medium-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "effra_medium-webfont.ttf"; path = "Fonts/effra_medium-webfont.ttf"; sourceTree = "<group>"; };
+		638007561FED5C6400BFA6C8 /* effra_medium-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "effra_medium-webfont.woff"; path = "Fonts/effra_medium-webfont.woff"; sourceTree = "<group>"; };
 		63AB4C891FE3F149002D7DB4 /* MegaLivelyShoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLivelyShoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63AB4C8E1FE3F14A002D7DB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +161,18 @@
 		63AB4C801FE3F149002D7DB4 = {
 			isa = PBXGroup;
 			children = (
+				638007531FED5C6400BFA6C8 /* effra_bold-webfont.eot */,
+				638007541FED5C6400BFA6C8 /* effra_bold-webfont.svg */,
+				6380074B1FED5C6200BFA6C8 /* effra_bold-webfont.ttf */,
+				638007501FED5C6300BFA6C8 /* effra_bold-webfont.woff */,
+				638007521FED5C6400BFA6C8 /* effra_medium-webfont.eot */,
+				6380074E1FED5C6300BFA6C8 /* effra_medium-webfont.svg */,
+				638007551FED5C6400BFA6C8 /* effra_medium-webfont.ttf */,
+				638007561FED5C6400BFA6C8 /* effra_medium-webfont.woff */,
+				6380074D1FED5C6300BFA6C8 /* effra_regular-webfont.eot */,
+				6380074C1FED5C6300BFA6C8 /* effra_regular-webfont.svg */,
+				6380074F1FED5C6300BFA6C8 /* effra_regular-webfont.ttf */,
+				638007511FED5C6300BFA6C8 /* effra_regular-webfont.woff */,
 				63AB4C8B1FE3F149002D7DB4 /* MegaLivelyShoe */,
 				63AB4CA01FE3F14A002D7DB4 /* MegaLivelyShoeTests */,
 				63AB4CAB1FE3F14A002D7DB4 /* MegaLivelyShoeUITests */,
@@ -172,6 +195,7 @@
 		63AB4C8B1FE3F149002D7DB4 /* MegaLivelyShoe */ = {
 			isa = PBXGroup;
 			children = (
+				638007491FED5BBF00BFA6C8 /* Fonts */,
 				635506B61FE88343009CAE17 /* Model */,
 				635506B41FE8830A009CAE17 /* Contoller */,
 				635506B51FE8833A009CAE17 /* Views */,
@@ -228,7 +252,6 @@
 				63AB4C871FE3F149002D7DB4 /* Resources */,
 				FED548B7D2868C7C861B267B /* [CP] Embed Pods Frameworks */,
 				24AAFD57EEB966D798FA6CD1 /* [CP] Copy Pods Resources */,
-				635506B01FE86F3F009CAE17 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,8 +352,21 @@
 				63AB4C971FE3F14A002D7DB4 /* LaunchScreen.storyboard in Resources */,
 				63AB4C941FE3F14A002D7DB4 /* Assets.xcassets in Resources */,
 				638007481FED354D00BFA6C8 /* CustomPage.xib in Resources */,
+				6380074A1FED5BBF00BFA6C8 /* Fonts in Resources */,
 				63AB4C921FE3F14A002D7DB4 /* Main.storyboard in Resources */,
 				638007471FED354D00BFA6C8 /* CustomOverlay.xib in Resources */,
+				638007571FED5C6400BFA6C8 /* effra_bold-webfont.ttf in Resources */,
+				638007581FED5C6400BFA6C8 /* effra_regular-webfont.svg in Resources */,
+				638007591FED5C6400BFA6C8 /* effra_regular-webfont.eot in Resources */,
+				6380075A1FED5C6400BFA6C8 /* effra_medium-webfont.svg in Resources */,
+				6380075B1FED5C6400BFA6C8 /* effra_regular-webfont.ttf in Resources */,
+				6380075C1FED5C6400BFA6C8 /* effra_bold-webfont.woff in Resources */,
+				6380075D1FED5C6400BFA6C8 /* effra_regular-webfont.woff in Resources */,
+				6380075E1FED5C6400BFA6C8 /* effra_medium-webfont.eot in Resources */,
+				6380075F1FED5C6400BFA6C8 /* effra_bold-webfont.eot in Resources */,
+				638007601FED5C6400BFA6C8 /* effra_bold-webfont.svg in Resources */,
+				638007611FED5C6400BFA6C8 /* effra_medium-webfont.ttf in Resources */,
+				638007621FED5C6400BFA6C8 /* effra_medium-webfont.woff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +623,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH9B7ZJ7EE;
 				INFOPLIST_FILE = MegaLivelyShoe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ict.su.MegaLivelyShoe;
@@ -602,6 +639,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KH9B7ZJ7EE;
 				INFOPLIST_FILE = MegaLivelyShoe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ict.su.MegaLivelyShoe;
