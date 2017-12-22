@@ -1,0 +1,34 @@
+PODS:
+  - Contentful (0.3.0):
+    - Decodable (~> 0.5)
+    - Interstellar (~> 2.0.0)
+  - Decodable (0.5)
+  - Interstellar (2.0.0):
+    - Interstellar/Core (= 2.0.0)
+    - Interstellar/Warpdrive (= 2.0.0)
+  - Interstellar/Core (2.0.0)
+  - Interstellar/Warpdrive (2.0.0):
+    - Interstellar/Core
+
+DEPENDENCIES:
+  - Contentful (from `git@github.com:contentful/contentful.swift`, branch `master`)
+  - Decodable
+
+EXTERNAL SOURCES:
+  Contentful:
+    :branch: master
+    :git: git@github.com:contentful/contentful.swift
+
+CHECKOUT OPTIONS:
+  Contentful:
+    :commit: d5962a0f8638d8ec1049580a1110bc7377a23137
+    :git: git@github.com:contentful/contentful.swift
+
+SPEC CHECKSUMS:
+  Contentful: 8cfc7838de342acc46b00f5b58bcb04602efb0fd
+  Decodable: 7c90acc68d357b71d0d6efc120faf9c53c644b7e
+  Interstellar: 63a760ff3a3657f791a4523de4b89727c51edec3
+
+PODFILE CHECKSUM: 92412c233b977c8b000ec7a5fdac3dcfa544ce20
+
+COCOAPODS: 1.4.0.rc.1
