@@ -1,10 +1,4 @@
-//
-//  CustomOverlay.swift
-//  SwiftyOnboardExample
-//
-//  Created by Jay on 3/27/17.
-//  Copyright © 2017 Juan Pablo Fernandez. All rights reserved.
-//
+
 
 import UIKit
 import SwiftyOnboard

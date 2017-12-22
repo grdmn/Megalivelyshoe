@@ -158,6 +158,17 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		638007631FED5F6100BFA6C8 /* swipe page */ = {
+			isa = PBXGroup;
+			children = (
+				638007421FED354C00BFA6C8 /* CustomOverlay.swift */,
+				638007431FED354D00BFA6C8 /* CustomOverlay.xib */,
+				638007411FED354C00BFA6C8 /* CustomPage.swift */,
+				638007441FED354D00BFA6C8 /* CustomPage.xib */,
+			);
+			path = "swipe page";
+			sourceTree = "<group>";
+		};
 		63AB4C801FE3F149002D7DB4 = {
 			isa = PBXGroup;
 			children = (
@@ -195,16 +206,13 @@
 		63AB4C8B1FE3F149002D7DB4 /* MegaLivelyShoe */ = {
 			isa = PBXGroup;
 			children = (
+				638007631FED5F6100BFA6C8 /* swipe page */,
 				638007491FED5BBF00BFA6C8 /* Fonts */,
 				635506B61FE88343009CAE17 /* Model */,
 				635506B41FE8830A009CAE17 /* Contoller */,
 				635506B51FE8833A009CAE17 /* Views */,
 				63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */,
 				63AB4C8E1FE3F14A002D7DB4 /* ViewController.swift */,
-				638007421FED354C00BFA6C8 /* CustomOverlay.swift */,
-				638007431FED354D00BFA6C8 /* CustomOverlay.xib */,
-				638007411FED354C00BFA6C8 /* CustomPage.swift */,
-				638007441FED354D00BFA6C8 /* CustomPage.xib */,
 				63AB4C931FE3F14A002D7DB4 /* Assets.xcassets */,
 				63AB4C951FE3F14A002D7DB4 /* LaunchScreen.storyboard */,
 				63AB4C981FE3F14A002D7DB4 /* Info.plist */,
