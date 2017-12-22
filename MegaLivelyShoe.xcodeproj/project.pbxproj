@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		635506AF1FE86F3F009CAE17 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 635506AD1FE86F06009CAE17 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		635506B31FE88270009CAE17 /* ProductsViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */; };
+		638007451FED354D00BFA6C8 /* CustomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638007411FED354C00BFA6C8 /* CustomPage.swift */; };
+		638007461FED354D00BFA6C8 /* CustomOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638007421FED354C00BFA6C8 /* CustomOverlay.swift */; };
+		638007471FED354D00BFA6C8 /* CustomOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 638007431FED354D00BFA6C8 /* CustomOverlay.xib */; };
+		638007481FED354D00BFA6C8 /* CustomPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 638007441FED354D00BFA6C8 /* CustomPage.xib */; };
 		63AB4C8D1FE3F14A002D7DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */; };
 		63AB4C8F1FE3F14A002D7DB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB4C8E1FE3F14A002D7DB4 /* ViewController.swift */; };
 		63AB4C921FE3F14A002D7DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AB4C901FE3F14A002D7DB4 /* Main.storyboard */; };
@@ -56,6 +60,10 @@
 		1158D498EB3998BB4055A443 /* Pods_MegaLivelyShoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLivelyShoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635506AD1FE86F06009CAE17 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635506B21FE88270009CAE17 /* ProductsViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewTableViewController.swift; sourceTree = "<group>"; };
+		638007411FED354C00BFA6C8 /* CustomPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPage.swift; sourceTree = "<group>"; };
+		638007421FED354C00BFA6C8 /* CustomOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlay.swift; sourceTree = "<group>"; };
+		638007431FED354D00BFA6C8 /* CustomOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlay.xib; sourceTree = "<group>"; };
+		638007441FED354D00BFA6C8 /* CustomPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPage.xib; sourceTree = "<group>"; };
 		63AB4C891FE3F149002D7DB4 /* MegaLivelyShoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLivelyShoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63AB4C8E1FE3F14A002D7DB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +177,10 @@
 				635506B51FE8833A009CAE17 /* Views */,
 				63AB4C8C1FE3F14A002D7DB4 /* AppDelegate.swift */,
 				63AB4C8E1FE3F14A002D7DB4 /* ViewController.swift */,
+				638007421FED354C00BFA6C8 /* CustomOverlay.swift */,
+				638007431FED354D00BFA6C8 /* CustomOverlay.xib */,
+				638007411FED354C00BFA6C8 /* CustomPage.swift */,
+				638007441FED354D00BFA6C8 /* CustomPage.xib */,
 				63AB4C931FE3F14A002D7DB4 /* Assets.xcassets */,
 				63AB4C951FE3F14A002D7DB4 /* LaunchScreen.storyboard */,
 				63AB4C981FE3F14A002D7DB4 /* Info.plist */,
@@ -316,7 +328,9 @@
 			files = (
 				63AB4C971FE3F14A002D7DB4 /* LaunchScreen.storyboard in Resources */,
 				63AB4C941FE3F14A002D7DB4 /* Assets.xcassets in Resources */,
+				638007481FED354D00BFA6C8 /* CustomPage.xib in Resources */,
 				63AB4C921FE3F14A002D7DB4 /* Main.storyboard in Resources */,
+				638007471FED354D00BFA6C8 /* CustomOverlay.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,9 +413,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638007461FED354D00BFA6C8 /* CustomOverlay.swift in Sources */,
 				635506B31FE88270009CAE17 /* ProductsViewTableViewController.swift in Sources */,
 				63AB4C8F1FE3F14A002D7DB4 /* ViewController.swift in Sources */,
 				63AB4C8D1FE3F14A002D7DB4 /* AppDelegate.swift in Sources */,
+				638007451FED354D00BFA6C8 /* CustomPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
